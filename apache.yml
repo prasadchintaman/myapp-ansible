@@ -15,7 +15,6 @@
       copy:
         src: k8s.yml
         dest: /home/ubuntu/
-        
     - name: Execute a command using the shell module
       shell: kubectl apply -f k8s.yml
 ...
