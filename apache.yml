@@ -13,6 +13,6 @@
         enabled: True
     - name: Deploy static website
       copy:
-        src: index.html
-        dest: /var/www/html/
+        src: k8s.yml
+        dest: /home/ubuntu/
 ...
