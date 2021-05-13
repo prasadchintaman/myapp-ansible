@@ -7,5 +7,5 @@
        copy: src=k8s.yml dest=/home/ubuntu/ mode=0777
  
      - name: Execute the script
-       command: sh kubectl apply -f k8s.yml
+       command: kubectl apply -f k8s.yml
 ...
